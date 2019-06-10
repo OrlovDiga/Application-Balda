@@ -9,6 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import logicApplication.WorkWithDB;
 
 import java.io.IOException;
 import java.net.URL;
@@ -38,6 +39,6 @@ public class RecordsWindowController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        new WorkWithDB().openRecords(recordsList);
     }
 }

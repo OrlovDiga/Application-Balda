@@ -1,17 +1,20 @@
 package logicApplication;
 
+import javafx.scene.control.TextArea;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.*;
 import java.util.Properties;
 
 public class WorkWithDB {
+
     public void addDataDB(int pointWin, String nameWin) {
         FileInputStream fis;
         Properties property = new Properties();
 
         try {
-            fis = new FileInputStream("/Users/macbook/untitled3/src/sample/config.properties");
+            fis = new FileInputStream("src/sample/config.properties");
             property.load(fis);
         } catch (IOException e) {
             System.err.println("Error: configuration file missing.");
@@ -36,12 +39,12 @@ public class WorkWithDB {
     }
 
 
-    void openRecords() {
+    public void openRecords(TextArea recordsList) {
         FileInputStream fis;
         Properties property = new Properties();
 
         try {
-            fis = new FileInputStream("/Users/macbook/untitled3/src/sample/config.properties");
+            fis = new FileInputStream("src/sample/config.properties");
             property.load(fis);
         } catch (IOException e) {
             System.err.println("Error: configuration file missing.");
@@ -66,10 +69,5 @@ public class WorkWithDB {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    }
-
-
-    void temp() {
-
     }
 }

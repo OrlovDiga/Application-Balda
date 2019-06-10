@@ -18,7 +18,7 @@ public class Main extends Application{
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
         //Music for starting window /need correct!!!
-        Media media = new Media("file:///Users/macbook/untitled3/MusicApplication.mp3");
+        Media media = new Media("file://src/resources/MusicApplication.mp3");
         MediaPlayer player = new MediaPlayer(media);
         player.play();
     }

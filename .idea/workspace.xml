@@ -2,54 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logicApplication/AlphabetLogic.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logicApplication/EndLogic.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logicApplication/GameLogic.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logicApplication/OptionsLogic.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logicApplication/RecordsLogic.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logicApplication/StartLogic.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/logicApplication/WorkWithDB.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/TestingClass.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2563b378-7fab-49f4-a4b9-6c989a8a863d.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/701864e9-82cd-4c8e-8175-01d5260baf0c.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d38eaf1c-bca1-47ec-a1e0-84448fc12bdf.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f54a82f7-23a0-4979-be24-49fcdecf8861.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/logicApplication/WorkWithOptions.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/Alphabet.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/AlphabetController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/EndWindow.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/EndWindowController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/GameWindow.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/GameWindowController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/Main.class" afterPath="$PROJECT_DIR$/out/production/untitled3/sample/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/OptionsWindow.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/OptionsWindowController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/RecordsWindow.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/RecordsWindowController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/SearchingWords.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/StartWindow.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/StartWindowController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/Test.class" afterPath="$PROJECT_DIR$/out/production/untitled3/sample/Test.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/TimerStroke.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/config.properties" afterPath="$PROJECT_DIR$/out/production/untitled3/sample/config.properties" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Alphabet.fxml" afterPath="$PROJECT_DIR$/src/fxmlFiles/Alphabet.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/AlphabetController.java" afterPath="$PROJECT_DIR$/src/controllers/AlphabetController.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/EndWindow.fxml" afterPath="$PROJECT_DIR$/src/fxmlFiles/EndWindow.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/EndWindowController.java" afterPath="$PROJECT_DIR$/src/controllers/EndWindowController.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/GameWindow.fxml" afterPath="$PROJECT_DIR$/src/fxmlFiles/GameWindow.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/GameWindowController.java" afterPath="$PROJECT_DIR$/src/controllers/GameWindowController.java" />
+      <change beforePath="$PROJECT_DIR$/AllWords.txt" afterPath="$PROJECT_DIR$/src/resources/AllWords.txt" />
+      <change beforePath="$PROJECT_DIR$/MusicApplication.mp3" afterPath="$PROJECT_DIR$/src/resources/MusicApplication.mp3" />
+      <change beforePath="$PROJECT_DIR$/MusicForWrite.mp3" afterPath="$PROJECT_DIR$/src/resources/MusicForWrite.mp3" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/controllers/EndWindowController.class" afterPath="$PROJECT_DIR$/out/production/untitled3/controllers/EndWindowController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/controllers/GameWindowController.class" afterPath="$PROJECT_DIR$/out/production/untitled3/controllers/GameWindowController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/controllers/OptionsWindowController.class" afterPath="$PROJECT_DIR$/out/production/untitled3/controllers/OptionsWindowController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/controllers/RecordsWindowController.class" afterPath="$PROJECT_DIR$/out/production/untitled3/controllers/RecordsWindowController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/controllers/TimerStroke.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/logicApplication/AlphabetLogic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/logicApplication/EndLogic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/logicApplication/GameLogic.class" afterPath="$PROJECT_DIR$/out/production/untitled3/logicApplication/GameLogic.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/logicApplication/OptionsLogic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/logicApplication/RecordsLogic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/logicApplication/SearchingWords.class" afterPath="$PROJECT_DIR$/out/production/untitled3/logicApplication/SearchingWords.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/logicApplication/StartLogic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/BlinkingThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled3/sample/config.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/GameWindowController.java" afterPath="$PROJECT_DIR$/src/controllers/GameWindowController.java" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/OptionsWindowController.java" afterPath="$PROJECT_DIR$/src/controllers/OptionsWindowController.java" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/RecordsWindowController.java" afterPath="$PROJECT_DIR$/src/controllers/RecordsWindowController.java" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/TimerStroke.java" afterPath="$PROJECT_DIR$/src/logicApplication/TimerStroke.java" />
+      <change beforePath="$PROJECT_DIR$/src/logicApplication/AlphabetLogic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/logicApplication/EndLogic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/logicApplication/GameLogic.java" afterPath="$PROJECT_DIR$/src/logicApplication/GameLogic.java" />
+      <change beforePath="$PROJECT_DIR$/src/logicApplication/OptionsLogic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/logicApplication/RecordsLogic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/logicApplication/StartLogic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/logicApplication/WorkWithDB.java" afterPath="$PROJECT_DIR$/src/logicApplication/WorkWithDB.java" />
+      <change beforePath="$PROJECT_DIR$/src/sample/BlinkingThread.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/OptionsWindow.fxml" afterPath="$PROJECT_DIR$/src/fxmlFiles/OptionsWindow.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/OptionsWindowController.java" afterPath="$PROJECT_DIR$/src/controllers/OptionsWindowController.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/RecordsWindow.fxml" afterPath="$PROJECT_DIR$/src/fxmlFiles/RecordsWindow.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/RecordsWindowController.java" afterPath="$PROJECT_DIR$/src/controllers/RecordsWindowController.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/SearchingWords.java" afterPath="$PROJECT_DIR$/src/logicApplication/SearchingWords.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/StartWindow.fxml" afterPath="$PROJECT_DIR$/src/fxmlFiles/StartWindow.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/StartWindowController.java" afterPath="$PROJECT_DIR$/src/controllers/StartWindowController.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Test.java" afterPath="$PROJECT_DIR$/src/sample/Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/TimerStroke.java" afterPath="$PROJECT_DIR$/src/controllers/TimerStroke.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/config.properties" afterPath="$PROJECT_DIR$/src/sample/config.properties" />
-      <change beforePath="$PROJECT_DIR$/untitled3.iml" afterPath="$PROJECT_DIR$/untitled3.iml" />
+      <change beforePath="$PROJECT_DIR$/src/sample/config.properties" afterPath="$PROJECT_DIR$/src/resources/config.properties" />
+      <change beforePath="$PROJECT_DIR$/tikan-e-chasov-rovno-30-sekund.mp3" afterPath="$PROJECT_DIR$/src/resources/tikan-e-chasov-rovno-30-sekund.mp3" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,14 +131,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameWindowController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameWindowController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/GameWindowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2438">
-              <caret line="137" column="34" lean-forward="false" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,78 +144,41 @@
       <file leaf-file-name="SearchingWords.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logicApplication/SearchingWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="525">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TimerStroke.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/TimerStroke.java">
+        <entry file="file://$PROJECT_DIR$/src/logicApplication/TimerStroke.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EndLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logicApplication/EndLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkWithDB.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorkWithDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/logicApplication/WorkWithDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            <state relative-caret-position="-224">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1560124450691" expanded="true" signature="1009:1058" ph="INSERT INTO baldarslt... " />
-                <marker date="1560124450691" expanded="true" signature="2150:2193" ph="SELECT * FRO... baldarslt" />
+                <marker date="1560166113870" expanded="true" signature="1024:1073" ph="INSERT INTO baldarslt... " />
+                <marker date="1560166113870" expanded="true" signature="2167:2210" ph="SELECT * FRO... baldarslt" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OptionsWindowController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/OptionsWindowController.java">
+      <file leaf-file-name="GameLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logicApplication/GameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlphabetLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logicApplication/AlphabetLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordsWindowController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/RecordsWindowController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,10 +189,21 @@
       <file leaf-file-name="AlphabetController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/AlphabetController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="60">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptionsWindowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/OptionsWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -254,15 +212,32 @@
       <file leaf-file-name="EndWindowController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/EndWindowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
+            <state relative-caret-position="603">
               <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecordsWindowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/RecordsWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartWindowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/StartWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -279,12 +254,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>left</find>
-      <find>personOne</find>
-      <find>count</find>
-      <find>cancl</find>
-      <find>exampleP</find>
-      <find>балда</find>
       <find>event</find>
       <find>getW</find>
       <find>getSym</find>
@@ -309,6 +278,12 @@
       <find>add</find>
       <find>for</find>
       <find>getRow</find>
+      <find>records</find>
+      <find>timeLabel</find>
+      <find>балл</find>
+      <find>AllWords</find>
+      <find>all</find>
+      <find>Users</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -337,8 +312,6 @@
         <option value="$PROJECT_DIR$/src/sample/TImer.java" />
         <option value="$PROJECT_DIR$/src/sample/GameWindow.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Alphabet.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/BlinkingThread.java" />
         <option value="$USER_HOME$/Desktop/TaskA.java" />
         <option value="$PROJECT_DIR$/src/sample/endWindow.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Tinivini.java" />
@@ -356,16 +329,25 @@
         <option value="$PROJECT_DIR$/src/sample/EndWindowController.java" />
         <option value="$PROJECT_DIR$/src/sample/TimerStroke.java" />
         <option value="$PROJECT_DIR$/src/sample/GameWindowController.java" />
-        <option value="$PROJECT_DIR$/src/controllers/OptionsWindowController.java" />
         <option value="$PROJECT_DIR$/src/controllers/StartWindowController.java" />
         <option value="$PROJECT_DIR$/src/controllers/AlphabetController.java" />
-        <option value="$PROJECT_DIR$/src/controllers/GameWindowController.java" />
-        <option value="$PROJECT_DIR$/src/controllers/TimerStroke.java" />
-        <option value="$PROJECT_DIR$/src/logicApplication/SearchingWords.java" />
         <option value="$PROJECT_DIR$/src/logicApplication/EndLogic.java" />
         <option value="$PROJECT_DIR$/src/controllers/EndWindowController.java" />
         <option value="$PROJECT_DIR$/src/controllers/RecordsWindowController.java" />
+        <option value="$PROJECT_DIR$/src/controllers/TimerStroke.java" />
+        <option value="$PROJECT_DIR$/src/logicApplication/TimerStroke.java" />
+        <option value="$PROJECT_DIR$/src/logicApplication/AlphabetLogic.java" />
+        <option value="$PROJECT_DIR$/src/logicApplication/SearchingWords.java" />
+        <option value="$PROJECT_DIR$/src/logicApplication/StartLogic.java" />
+        <option value="$PROJECT_DIR$/src/sample/BlinkingThread.java" />
+        <option value="$PROJECT_DIR$/src/controllers/OptionsWindowController.java" />
+        <option value="$PROJECT_DIR$/src/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/logicApplication/WorkWithOptions.java" />
+        <option value="$PROJECT_DIR$/src/resources/AllWords.txt" />
+        <option value="$PROJECT_DIR$/src/logicApplication/GameLogic.java" />
         <option value="$PROJECT_DIR$/src/logicApplication/WorkWithDB.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/controllers/GameWindowController.java" />
       </list>
     </option>
   </component>
@@ -446,13 +428,19 @@
               <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fxmlFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="logicApplication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="logicApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="untitled3" type="b2602c69:ProjectViewProjectNode" />
@@ -488,16 +476,17 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="All&#9;FILE&#9;file:///Users/macbook/untitled3/src/resources/AllWords.txt&#10;{&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/fxmlFiles" />
-      <recent name="$PROJECT_DIR$/src/sample" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src/sample" />
+      <recent name="$PROJECT_DIR$/src/fxmlFiles" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -512,7 +501,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchingWords">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="HTML_USED" value="false" />
@@ -524,7 +513,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="controllers.*" />
+          <option name="PATTERN" value="logicApplication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -564,7 +553,7 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="controllers.*" />
+          <option name="PATTERN" value="logicApplication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -583,7 +572,7 @@
     <configuration name="Tinivini" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="controllers.*" />
+          <option name="PATTERN" value="logicApplication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -774,7 +763,7 @@
       <workItem from="1559321078960" duration="30710000" />
       <workItem from="1559670814811" duration="9770000" />
       <workItem from="1559775371919" duration="13867000" />
-      <workItem from="1560103958112" duration="4951000" />
+      <workItem from="1560103958112" duration="13672000" />
     </task>
     <servers />
   </component>
@@ -799,7 +788,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137462000" />
+    <option name="totallyTimeSpent" value="146183000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,6 +801,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -821,9 +811,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19665273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19665273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1872385" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1872385" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22405373" sideWeight="0.6703755" order="3" side_tool="false" content_ui="combo" />
@@ -847,41 +837,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15995117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4004193" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3169456" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19665273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1872385" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22405373" sideWeight="0.6703755" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -895,7 +850,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -904,22 +859,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/untitled3.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -985,14 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AllWords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,39 +1006,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestingClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="993">
           <caret line="71" column="1" lean-forward="false" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/BlinkingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#449#1264#0" expanded="false" />
+            <element signature="e#1263#1264#0" expanded="false" />
+            <element signature="e#2049#2050#0" expanded="false" />
+            <element signature="e#2126#2127#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,24 +1036,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logicApplication/EndLogicWindow.java" />
-    <entry file="file://$PROJECT_DIR$/src/logicApplication/GameLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logicApplication/StartLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fxmlFiles/Alphabet.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1156,18 +1052,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logicApplication/RecordsLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/logicApplication/EndLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/StartWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1180,82 +1068,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/TimerStroke.java">
+    <entry file="file://$PROJECT_DIR$/src/logicApplication/RecordsLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logicApplication/SearchingWords.java">
+    <entry file="file://$PROJECT_DIR$/src/logicApplication/StartLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/AlphabetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logicApplication/EndLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/EndWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/GameWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2438">
-          <caret line="137" column="34" lean-forward="false" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/OptionsWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/RecordsWindowController.java">
+    <entry file="file://$PROJECT_DIR$/src/resources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/BlinkingThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/AllWords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <marker date="1559779425465" expanded="true" signature="688:829" ph="CREATE TABLE... IF" />
+            <marker date="1559779425465" expanded="true" signature="875:932" ph="INSERT INTO baldatest... " />
+            <marker date="1559779425465" expanded="true" signature="977:1031" ph="INSERT INTO baldatest... " />
+            <marker date="1559779425465" expanded="true" signature="1092:1111" ph="SELECT * FRO... baldatest" />
+            <marker date="1559779425465" expanded="true" signature="1092:1135" ph="SELECT * FRO... baldarslt" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicApplication/WorkWithOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="51" column="80" lean-forward="false" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1264,13 +1150,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logicApplication/WorkWithDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        <state relative-caret-position="-224">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <marker date="1560166113870" expanded="true" signature="1024:1073" ph="INSERT INTO baldarslt... " />
+            <marker date="1560166113870" expanded="true" signature="2167:2210" ph="SELECT * FRO... baldarslt" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicApplication/TimerStroke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicApplication/SearchingWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicApplication/GameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1560124450691" expanded="true" signature="1009:1058" ph="INSERT INTO baldarslt... " />
-            <marker date="1560124450691" expanded="true" signature="2150:2193" ph="SELECT * FRO... baldarslt" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/StartWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/OptionsWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/EndWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/AlphabetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/RecordsWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/GameWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

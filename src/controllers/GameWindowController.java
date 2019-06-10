@@ -16,6 +16,8 @@ import javafx.scene.media.MediaPlayer;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.util.Pair;
+import logicApplication.GameLogic;
+import logicApplication.TimerStroke;
 
 import java.io.*;
 import java.net.URL;
@@ -26,44 +28,46 @@ import java.util.ResourceBundle;
 
 import static java.lang.StrictMath.abs;
 
+
+
 public class GameWindowController implements Initializable {
 
     private Integer x = null;
-    protected int quanityFreeButton = 4;
+    public int quanityFreeButton = 20;
     private Integer y = null;
     private List<Pair<Integer, Integer>> wasXAndY = new ArrayList<>();
     private List<String> allWords = new ArrayList<>();
     private Button nowButton;
-    int countTime;
-    long lastUpdate = 0;
-    public TimerStroke timer;
-    int going = 1;//отвечает за то, чей сейчас ход
+    public int countTime;
+    public long lastUpdate = 0;
+    private TimerStroke timer;
+    public int going = 1;//отвечает за то, чей сейчас ход
     public TextArea nowWords;
-    Label nowPoint;
+    public Label nowPoint;
     private boolean flagWroteSymbol = false;
-    Button newButtonSymbol;
-    FadeTransition fadeTransition;
+    public Button newButtonSymbol;
+    public FadeTransition fadeTransition;
 
     @FXML
     public Button word;
     @FXML
-    Label pointTwo;
+    public Label pointTwo;
     @FXML
-    TextArea wordsTwo;
+    public TextArea wordsTwo;
     @FXML
-    TextArea wordsOne;
+    public TextArea wordsOne;
     @FXML
-    Label pointOne;
+    public Label pointOne;
     @FXML
-    GridPane gamePanel;
+    public GridPane gamePanel;
     @FXML
-    Label timeLabel;
+    public Label timeLabel;
     @FXML
-    Button miss;
+    public Button miss;
     @FXML
-    Label personOne;
+    public Label personOne;
     @FXML
-    Label personTwo;
+    public Label personTwo;
 
 
     //пропустить ход
@@ -72,7 +76,6 @@ public class GameWindowController implements Initializable {
 //        stopBlinking();
         if (!newButtonSymbol.equals("")) {
             quanityFreeButton--;
-            System.out.println(quanityFreeButton);
             if (quanityFreeButton == 0) {
                 openEndWindow();
             }
@@ -193,13 +196,13 @@ public class GameWindowController implements Initializable {
         quanityFreeButton--;
         newButtonSymbol = nowButton;
         flagWroteSymbol = true;
-        new MediaPlayer(new Media("file:///Users/macbook/untitled3/MusicForWrite.mp3")).play();
+        new MediaPlayer(new Media("file://src/resources/MusicForWrite.mp3")).play();
     }
 
 
     //отмена всех действий
     @FXML
-    void cancelSetSymbol() {
+    public void cancelSetSymbol() {
         for (int i = 0; i < 25; i++) {
             Button button = (Button) gamePanel.getChildren().get(i);
             button.setStyle(null);
@@ -221,17 +224,8 @@ public class GameWindowController implements Initializable {
     }
 
 
-    private void getAllWords() throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("./AllWords.txt")));
-        String line;
-        while ((line = reader.readLine()) != null) {
-            allWords.add(line.trim());
-        }
-    }
-
-
     //открытие завершающего окна(когда кто-то из участников выиграет)
-    void openEndWindow() throws IOException {
+    public void openEndWindow() throws IOException {
         Stage stageEndWin = new Stage();
         Stage stageThis = (Stage) word.getScene().getWindow();
         FXMLLoader loaderEndWndw = new FXMLLoader(getClass().getResource("../fxmlFiles/EndWindow.fxml"));
@@ -270,11 +264,16 @@ public class GameWindowController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        try {
+            allWords = new GameLogic().getAllWords();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         FileInputStream fis;
         Properties property = new Properties();
 
         try {
-            fis = new FileInputStream(new File("/Users/macbook/untitled3/src/sample/config.properties"));
+            fis = new FileInputStream(new File("src/resources/config.properties"));
             property.load(fis);
         } catch (IOException e) {
             System.err.println("Error: configuration file missing.");
@@ -289,10 +288,5 @@ public class GameWindowController implements Initializable {
         timer = new TimerStroke(this);
         timer.start();
 
-        try {
-            getAllWords();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }

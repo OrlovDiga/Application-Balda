@@ -8,15 +8,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import logicApplication.WorkWithOptions;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Properties;
 
 
 public class OptionsWindowController {
+
+    WorkWithOptions workWithOptions = new WorkWithOptions();
 
     @FXML
     Button strtWndwBut;
@@ -26,6 +25,7 @@ public class OptionsWindowController {
     TextField fieldNameFirst;
     @FXML
     TextField fieldNameSec;
+
 
 
     @FXML
@@ -49,54 +49,19 @@ public class OptionsWindowController {
 
     @FXML
     void changeTimePlay() {
-        change(fieldTimePlay, "timePlay");
+        workWithOptions.changeTime(fieldTimePlay, "timePlay");
     }
 
 
     @FXML
-    void changeNameFirst() {
-        change(fieldNameFirst, "nameFirst");
+    void changeNameFirst() { workWithOptions.changeName(fieldNameFirst, "nameFirst");
     }
 
 
     @FXML
     void changeNameSecond() {
-        change(fieldNameSec, "nameSecond");
+        workWithOptions.changeName(fieldNameSec, "nameSecond");
     }
 
-    public void change(TextField who, String name) {
-        String contentField = who.getText();
 
-        if (!contentField.equals("")) {
-            FileInputStream in = null;
-            try {
-                in = new FileInputStream("/Users/macbook/untitled3/src/sample/config.properties");
-            } catch (FileNotFoundException e) {
-                System.err.println("Error: configuration file missing.");
-            }
-
-            Properties props = new Properties();
-            try {
-                props.load(in);
-                in.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-            FileOutputStream out = null;
-            try {
-                out = new FileOutputStream("/Users/macbook/untitled3/src/sample/config.properties");
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
-            props.setProperty(name, contentField);
-            try {
-                assert out != null;
-                props.store(out, null);
-                out.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 }
